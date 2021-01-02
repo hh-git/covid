@@ -1,0 +1,65 @@
+/* pages/team/team.wxss */
+
+ /*
+ 页面左右留白
+ */
+ .pageSapce{
+   margin-left: 5%;
+   margin-right: 5%;
+ }
+ /*
+ 表格纵向滑动条
+ */
+ .table-wrap{
+   overflow-y: scroll;
+   overflow-x: hidden;
+ }
+ /* 表格代码   */
+ .table {
+   border:1px solid #dddddd;
+   border-right:0;
+   border-bottom: 0;
+   width: 98%;
+   margin-left: 1%;
+ }
+ .tr {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   height: 2.4rem;
+   align-items: center;
+ }
+ .td {
+   width: 34%;
+   justify-content: center;
+   align-items: center;
+   color: #4f4f4f;
+   display: flex;
+   font-size: 25rpx;
+   height: 99%;
+   border-bottom: 1px solid #dddddd;
+   border-right: 1px solid #dddddd;
+ }
+ /*
+ 用于列表隔行的颜色变化
+ */
+ .tdColor{
+   background:#f7f7f7;
+ }
+ /*
+ 表头颜色
+ */
+ .thColor{
+   background:#eff3f5;
+ }
+ .th {
+   width: 34%;
+   justify-content: center;
+   align-items: center;
+   color: #4f4f4f;
+   display: flex;
+   height: 99%;
+   font-weight: 600;
+   border-bottom: 1px solid #dddddd;
+   border-right: 1px solid #dddddd;
+ }

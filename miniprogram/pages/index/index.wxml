@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <view style="font-size:30pt">
+    {{time}}
+  </view>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <view class="button-sp-area">
+      <button type="primary" plain="true" wx:if="{{show !=''}}" bindtap="onUpdate">今日完成填报</button>
+  </view>
+  <view class="icon-small-wrp">
+      <icon class="icon-small" disable="flase" type="success_no_circle" size="40" wx:if="{{show ==''}}"></icon>
+  </view>
+</view>

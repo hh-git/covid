@@ -1,0 +1,20 @@
+/* pages/userConsole/userConsole.wxss */
+
+@import "../../style/guide.wxss";
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2.4rem;
+  align-items: center;
+}
+.td {
+  margin: 50rpx 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #4f4f4f;
+  display: flex;
+  font-size: 50rpx;
+  height: 99%;
+}

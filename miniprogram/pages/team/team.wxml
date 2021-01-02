@@ -1,0 +1,19 @@
+<!--pages/team/team.wxml-->
+<view class="pageSapce">
+  <view class="table">
+    <view class="tr thColor">
+      <view class="th">姓名</view>
+      <view class="th">手机号</view>
+      <view class="th">是否填报</view>
+    </view>
+    <view class="table-wrap">
+      <block wx:for="{{listData}}">
+        <view class="tr" >
+          <view class="td">{{item.name}}</view>
+          <text selectable='true' class="td">{{item.number}}</text>
+          <view class="td" wx:if="{{!item.isDone}}">未填报</view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

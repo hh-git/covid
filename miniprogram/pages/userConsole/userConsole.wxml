@@ -1,0 +1,45 @@
+<view class="container">
+  <view class="page-body">
+    <form catchsubmit="formSubmit">
+      <text>\n</text>
+      <text>\n</text>
+      <text>\n</text>
+      <view class="tr" >
+        <view class="td" style="justify-content:flex-end;width: 80%;">
+          <view >团队：</view>
+        </view>
+        <view class="td">
+          <input bindinput="bindInput" class="weui-input" name="team" placeholder="团队" value="{{team}}"/>
+        </view>
+      </view>
+      <text>\n</text>
+      <view class="tr">
+        <view class="td" style="justify-content:flex-end;width: 80%;">
+          <view >姓名：</view>
+        </view>
+        <view class="td" >
+          <input bindinput="bindInput" class="weui-input" name="name" placeholder="姓名" value="{{name}}"/>
+        </view>
+      </view>
+      <text>\n</text>
+      <view class="tr">
+        <view class="td" style="justify-content:flex-end;width: 80%;">
+          <view >手机号：</view>
+        </view>
+        <view class="td">
+          <input bindinput="bindInput" class="weui-input" name="number" placeholder="手机号" value="{{number}}"/>
+        </view>
+      </view>
+      <text>\n</text>
+      <text>\n</text>
+      <text>\n</text>
+      <text>\n</text>
+
+      <view class="btn-area" style="display:flex;justify-content:center;">
+        <button style="margin: 30rpx 0" type="primary" formType="submit" wx:if="{{show !=''}}">保存</button>
+      </view>
+      
+    </form>
+  </view>
+
+</view>
